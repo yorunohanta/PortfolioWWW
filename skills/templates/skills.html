@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<div id="header" style="padding-top: 20px">
+    <h1>Umiejętności</h1>
+</div>
+
+<div class="content" style="padding-right: 300px; padding-top: 50px">
+    <p><table style="border-spacing: 20px 10px">
+			<tr>
+				<td style="text-align: right">Delta Controls &nbsp&nbsp&nbsp&nbsp&nbsp</td>
+				<td><img src="{% static 'img/linia.png' %}"  width="480px" height="12px"><span style="padding: 10px">80%</span></td>
+			</tr>
+			<tr>
+				<td style="text-align: right">Schneider Electric &nbsp&nbsp&nbsp&nbsp&nbsp</td>
+				<td><img src="{% static 'img/linia.png' %}"  width="480px" height="12px"><span style="padding: 10px">80%</span></td>
+			</tr>
+			<tr>
+				<td style="text-align: right">Niagara N4 &nbsp&nbsp&nbsp&nbsp&nbsp</td>
+				<td><img src="{% static 'img/linia.png' %}"  width="540px" height="12px"><span style="padding: 10px">90%</span></td>
+			</tr>
+			<tr>
+				<td style="text-align: right">Programowanie PLC &nbsp&nbsp&nbsp&nbsp&nbsp</td>
+				<td><img src="{% static 'img/linia.png' %}"  width="360px" height="12px"><span style="padding: 10px">60%</span></td>
+			</tr>
+			<tr>
+				<td style="text-align: right">KNX &nbsp&nbsp&nbsp&nbsp&nbsp</td>
+				<td><img src="{% static 'img/linia.png' %}"  width="420px" height="12px"><span style="padding: 10px">70%</span></td>
+			</tr>
+			<tr>
+				<td style="text-align: right">Crestron &nbsp&nbsp&nbsp&nbsp&nbsp</td>
+				<td><img src="{% static 'img/linia.png' %}"  width="300px" height="12px"><span style="padding: 10px">50%</span></td>
+			</tr>
+			<tr>
+				<td style="text-align: right">WSCAD &nbsp&nbsp&nbsp&nbsp&nbsp</td>
+				<td><img src="{% static 'img/linia.png' %}"  width="300px" height="12px"><span style="padding: 10px">50%</span></td>
+			</tr>
+			<tr>
+				<td style="text-align: right">AutoCAD &nbsp&nbsp&nbsp&nbsp&nbsp</td>
+				<td><img src="{% static 'img/linia.png' %}"  width="420px" height="12px"><span style="padding: 10px">70%</span></td>
+			</tr>
+			<tr>
+				<td style="text-align: right">MS Office &nbsp&nbsp&nbsp&nbsp&nbsp</td>
+				<td><img src="{% static 'img/linia.png' %}"  width="480px" height="12px"><span style="padding: 10px">80%</span></td>
+			</tr>
+		</table>
+	</p>
+</div>
+
+<div id="courses" style="padding-top: 50px">
+    <h1>Szkolenia</h1>
+</div>
+
+<div class="content" style="padding-right: 300px; padding-top: 20px">
+    <p><table>
+			<tr>
+				<td><img src="{% static 'img/sep.gif' %}"></td>
+				<td><b><span style="padding: 30px">Uprawnienia elektryczne SEP do 1kV (eksploatacja i dozór)</span></b><br><span style="padding: 30px">(wygasa wrzesień 2025)</span></td>
+			</tr>
+			<tr>
+				<td><img src="{% static 'img/delta.png' %}"></td>
+				<td><b><span style="padding: 30px">Szkolenie Techniczne Delta Controls - Poziom 1</span></b><br><span style="padding: 30px">(marzec 2020)</span></td>
+			</tr>
+			<tr>
+				<td><img src="{% static 'img/schneider.png' %}"></td>
+				<td><b><span style="padding: 30px">EcoStruxure Building Operation 2.0x SmartX Engineering</span></b><br><span style="padding: 30px">(czerwiec 2019)</span></td>
+			</tr>
+			<tr>
+				<td><img src="{% static 'img/wago.gif' %}"></td>
+				<td><b><span style="padding: 30px">Podstawy programowania sterowników sieciowych WAGO-I/O-SYSTEM 750</span></b><br><span style="padding: 30px">(styczeń 2019)</span></td>
+			</tr>
+			<tr>
+				<td><img src="{% static 'img/beckhoff.png' %}"></td>
+				<td><b><span style="padding: 30px">TwinCAT System - szkolenie PLC</span></b><br><span style="padding: 30px">(październik 2018)</span></td>
+			</tr>
+			<tr>
+				<td><img src="{% static 'img/honeywell.jpg' %}"></td>
+				<td><b><span style="padding: 30px">Oprogramowanie systemu BMS ARENA NX opartego o Niagara 4</span></b><br><span style="padding: 30px">(czerwiec 2018)</span></td>
+			</tr>
+		</table>
+	</p>
+</div>
+{% endblock %}

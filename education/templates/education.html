@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<div id="header" style="padding-top: 20px">
+    <h1>Wykształcenie</h1>
+</div>
+<div style="padding-top: 50px"></div>
+<div style="position: relative; width: 850px; height: 365px;">
+		<img src="{% static 'img/oska.png' %}" style="padding-left: 500px">
+		<div style="position: absolute; bottom: 250px; right: 380px; text-align:right">
+			<b>Politechnika Wrocławska</b><br>
+			Studia magisterskie<br>
+			Automatyka i robotyka<br>
+			2015-2016<br>
+			Specjalność: Komputerowe sieci sterowania
+		</div>
+		<div style="position: absolute; bottom: 120px; right: 0px; text-align:left">
+			<b>Politechnika Wrocławska</b><br>
+			Studia inżynierskie<br>
+			utomatyka i robotyka<br>
+			2011-2015<br>
+			Specjalność: Komputerowe sieci sterowania
+		</div>
+		<div style="position: absolute; bottom: 0px; right: 380px; text-align:right">
+			<b>Liceum Ogólnokształcące nr 2 w Opolu</b><br>
+			2009-2011<br>
+			Klasa: matematyczno-informatyczna
+		</div>
+</div>
+{% endblock %}

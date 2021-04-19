@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<div id="header" style="padding-top: 20px">
+    <h1>O mnie</h1>
+</div>
+
+<div id="photo">
+	<img src="{% static 'img/photo.png' %}" style="padding-top: 50px; float: right">
+</div>
+<div class="content" style="padding-right: 300px; padding-top: 50px">
+	<p style="text-align: justify">Cześć! Nazywam się Alicja Chrabąszcz, rocznik 1992. Jestem programistą szeroko pojętych systemów automatyki budynkowej. Swoją karierę zawodową rozpoczęłam zaraz po
+		ukończeniu studiów inżynierskich, co jednak nie przeszkodziło mi w ukończeniu również studiów magisterskich. Lubię grać w planszówki, jeździć na rowerze i czytać książki. No i nie mogę nie
+		wspomnieć o moim zamiłowaniu do Japonii i wszystkiego co z nią związane. <br><br> Aktualnie poza automatyką budynkową rozpoczęłam również samokształcenie w kierunku IT. Uczę się nowych języków
+		programowania tworząc małe projekty.
+	</p>
+
+	<p style="text-align: justify"><br><b>Dlaczego automatyka budynkowa?</b><br>Szczerzre mówiąc to wszystko wina przypadku. Na 5 semestrze studiów stwierdziłam, że niezbyt podoba mi się
+		to co robimy i myślałam o zmianie kierunku. Był tylko jeden mały problem, nie miałam pojęcia co w ogóle chciałabym robić. Jak więc mam wybrać nowy kierunek? Trudno,
+		pociągnę do końca to co zaczęłam (przecież został mi tylko rok), a w międzyczasie może mnie olśni. Tak oto wkroczyłam na 6 semestr i wszystko się zmieniło.
+		Pojawiły się zajęcia o jakże tajemniczej nazwie "Projekt zespołowy". Podzieleni na 3 osobowe grupy mieliśmy zrealizować wybrany z puli projekt. Moja grupa wybrała projekt
+		dotyczący automatyki budynkowej. Pierwotnie projekt miał być czysto teoretyczny, ale ambitni studenci po rozmowie z prowadzącym całkowicie go zmienili i tak oto zaczęliśmy
+		realizację automatyzacji jednej z sal zajęciowych. Wszystko robiliśmy od zera, od układania okablowania przez podłączanie urządzeń aż po programowanie i testowanie działania.
+		Ten jeden projekt ukształtował kierunek w jakim chciałam się dalej rozwijać.
+	</p>
+</div>
+{% endblock %}

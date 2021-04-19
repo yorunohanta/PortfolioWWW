@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<div id="header" style="padding-top: 20px">
+    <h1>Doświadczenie zawodowe</h1>
+</div>
+
+<div style="padding-top: 50px"></div>
+<div style="position: relative; width: 770px; height: 385px;">
+		<img src="{% static 'img/oska.png' %}" style="padding-left: 500px">
+		<div style="position: absolute; bottom: 240px; right: 300px; text-align:right">
+            <b><span style="font-size: small; color: #008CFF">lip 2017 - obecnie</span></b><br>
+            <b><span style="font-size: large">LIDER TECH</span></b><br>
+            <b><span style="font-size: medium">Programista</span></b><br>
+            <span style="font-size: small">Tworzenie oprogramowania zgodnego z założeniami<br> projektowymi oraz wytycznymi inwestora.<br>
+                Tworzenie wizualizacji obiektu dla potrzeb użytkownika.<br>
+                Uruchamianie systemów automatyki budynkowej.
+		</div>
+		<div style="position: absolute; bottom: 150px; right: 0px; text-align:left">
+            <b><span style="font-size: small; color: #008CFF">cze 2016 - cze 2017</span></b><br>
+            <b><span style="font-size: large">LIDER TECH</span></b><br>
+            <b><span style="font-size: medium">Inżynier budowy</span></b><br>
+            <span style="font-size: small">Weryfikacja dokumentacji projektowej.<br>
+                Nadzór na budowie.
+		</div>
+		<div style="position: absolute; bottom: 0px; right: 300px; text-align:right">
+            <b><span style="font-size: small; color: #008CFF">mar 2015 - maj 2016</span></b><br>
+            <b><span style="font-size: large">LIDER TECH</span></b><br>
+            <b><span style="font-size: medium">Asystent projektanta</span></b><br>
+            <span style="font-size: small">Pomoc przy projektowaniu systemów automatyki.
+		</div>
+</div>
+{% endblock %}
