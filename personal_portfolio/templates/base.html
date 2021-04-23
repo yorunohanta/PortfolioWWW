@@ -32,6 +32,12 @@
             <li class="nav-item">
               <a class="nav-link" href="{% url 'contact' %}">Contact</a>
             </li>
+            <li class="nav-item">
+              <a href="https://github.com/yorunohanta" target="_blank"><img src="{% static 'img/github.png' %}" style="padding-left: 460px"></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.linkedin.com/in/alicja-chrabąszcz-38411715a/" target="_blank"><img src="{% static 'img/linkedin.png' %}" style="padding-left: 5px"></a>
+            </li>
           </ul>
         </div>
     </div>
@@ -40,6 +46,11 @@
 <div class="container">
     {% block page_content %}{% endblock %}
 </div>
+
+    <div class="social_icons" style="text-align: center; padding-top: 100px">
+        <a href="https://github.com/yorunohanta" target="_blank"><img src="{% static 'img/github.png' %}"></a>
+        <a href="https://www.linkedin.com/in/alicja-chrabąszcz-38411715a/" target="_blank"><img src="{% static 'img/linkedin.png' %}"></a>
+    </div><br>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
